@@ -147,7 +147,7 @@ h1{
 #email-field{
     border: none;
     background-color: lightgrey;
-    padding: 15px 100px;
+    padding: 15px 40px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -157,7 +157,7 @@ h1{
     color: white;
     font-weight: bold;
     border: none;
-    padding: 15px 50px;
+    padding: 15px 20px;
     background-color: red;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
