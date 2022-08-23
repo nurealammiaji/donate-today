@@ -1,0 +1,133 @@
+body{
+    font-family: 'Changa', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.common-alignment{
+    text-align: center;
+    font-size: 20px;
+    padding: 100px 100px;
+}
+
+.common-alignment p{
+    margin-bottom: 50px;
+}
+
+.sec-1{
+    background-image: url(./images/donation3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red, salmon);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.tk-box{
+    display: inline-block;
+    width: 10%;
+    padding: 30px;
+    margin: 10px;
+    background-color:#F4F6F6;
+    color: gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#selected{
+    border: 2px solid red;
+    color: red;
+    background-color: #FADBD8;
+}
+
+.other-amount{
+    border: none;
+    border-bottom: 2px solid red;
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.plan-box{
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.plan-box img{
+    width: 15%;
+}
+
+#box-1{
+    background-color:#FDEBD0;
+}
+
+#box-2{
+    background-color:#D5F5E3;
+}
+
+#box-3{
+    background-color:#EBDEF0;
+}
+
+.newsletter{
+    display: inline-block;
+    background-color: palegoldenrod;
+    justify-content: center;
+    padding: 100px 150px;
+    border-radius: 10px;
+}
+
+#email-field{
+    border: none;
+    background-color: lightgrey;
+    padding: 15px 100px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#email-button{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 50px;
+    background-color: red;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+}
+
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 30px;
+}
+
+footer p{
+    color: white;
+}
